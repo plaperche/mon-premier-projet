@@ -57,7 +57,7 @@ button:hover {
 /* Appliquer l’animation au titre et au paragraphe */
 h1,
 p {
-    animation: apparition 1s ease-out;
+    animation: apparition 2.5s ease-out;
 }
 
 /* Ajouter une transition fluide au bouton */
