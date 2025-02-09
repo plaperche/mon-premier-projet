@@ -16,5 +16,27 @@ p {
 }
 
 button {
-    text-align: center
+    display: block;
+    /* Fait du bouton un élément de type bloc */
+    margin: 20px auto;
+    /* Centre horizontalement */
+    padding: 10px 20px;
+    /* Ajoute de l’espace autour du texte */
+    font-size: 16px;
+    /* Agrandit le texte */
+    background-color: #007bff;
+    /* Ajoute une couleur de fond */
+    color: white;
+    /* Change la couleur du texte */
+    border: none;
+    /* Supprime la bordure */
+    border-radius: 5px;
+    /* Arrondit les bords */
+    cursor: pointer;
+    /* Change le curseur au survol */
+}
+
+button:hover {
+    background-color: #0056b3;
+    /* Change la couleur au survol */
 }
