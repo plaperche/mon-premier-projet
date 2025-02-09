@@ -40,3 +40,35 @@ button:hover {
     background-color: #0056b3;
     /* Change la couleur au survol */
 }
+
+/* Animation d’apparition */
+@keyframes apparition {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Appliquer l’animation au titre et au paragraphe */
+h1,
+p {
+    animation: apparition 1s ease-out;
+}
+
+/* Ajouter une transition fluide au bouton */
+button {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Effet au survol du bouton */
+button:hover {
+    background-color: #ff9800;
+    /* Changement de couleur */
+    transform: scale(1.1);
+    /* Effet d’agrandissement */
+}
